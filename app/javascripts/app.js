@@ -1,17 +1,7 @@
-// Import the page's CSS. Webpack will know what to do with it.
 import "../stylesheets/app.css";
 
-// Import libraries we need.
 import { default as Web3} from 'web3';
 import { default as contract } from 'truffle-contract'
-
-/*
- * When you compile and deploy your Voting contract,
- * truffle stores the abi and deployed address in a json
- * file in the build directory. We will use this information
- * to setup a Voting abstraction. We will use this abstraction
- * later to create an instance of the Voting contract.
- */
 
 import voting_artifacts from '../../build/contracts/Voting.json'
 
