@@ -2,16 +2,13 @@
 NU decentralized voting system on Ethereum
 
 Done:
-Solidity Smart-contract is well-written, and was proved to be working on Ethereum's RinkeBy Testnet.
-
-User-friendly web-interface is ready
-
-JavaScript easily makes transactions to migrated smart contract
+1) Solidity Smart-contract is well-written, and was proved to be working on Ethereum's RinkeBy Testnet.
+2) User-friendly web-interface is ready
+3) JavaScript easily makes transactions to migrated smart contract
 
 In progress:
-Native app for Android
+1) Native app for Android
 
 Need to be done:
-Authorization through NU email with confirmation
-
-Additional security measures
+1) Authorization through NU email with confirmation
+2) Additional security measures
