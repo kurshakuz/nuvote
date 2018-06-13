@@ -10,14 +10,14 @@
   <div id="address"></div>
   <div class="table-responsive">
     <table class="table table-bordered">
-      <thead>
+      <thead style="background-color:DodgerBlue;">
         <tr>
           <th>Candidate</th>
           <th>Votes</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
+      <tbody style="background-color:Tomato;">
+        <tr> 
           <td>Leila</td>
           <td id="candidate-1"></td>
         </tr>
@@ -29,8 +29,10 @@
     </table>
     <div id="msg"></div>
   </div>
-  <input type="text" id="candidate" />
+  <div style="text-align:center">
+  <input type="text" id="candidate" placeholder="Name of your candidate.." />
   <a href="#" onclick="voteForCandidate()" class="btn btn-primary">Vote</a>
+  </div>
 </body>
 <script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
